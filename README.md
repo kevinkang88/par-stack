@@ -1,3 +1,6 @@
+![logo](app/assets/images/par-stack.png "Logo")
+
+
 # PAR - PostgreSQL + Angular JS + Rails  
 
 ## Set Up
