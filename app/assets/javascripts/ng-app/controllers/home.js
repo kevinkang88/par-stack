@@ -1,3 +1,3 @@
 angular.module('AngularRails').controller('HomeCtrl',function($scope){
-  $scope.things = ['Angular','Rails 4.1','Working','Together!!'];
+  $scope.things = ['PostgreeSql','AngularJs','Rails',':D'];
 });
