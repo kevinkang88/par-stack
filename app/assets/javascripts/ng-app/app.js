@@ -3,6 +3,10 @@ angular.module('AngularRails',['ngRoute','templates']).config(function($routePro
     templateUrl: 'home.html',
     controller: 'HomeCtrl'
   });
+  $routeProvider.when('/todos',{
+    templateUrl: 'todos/index.html',
+    controller: 'TodosCtrl'
+  });
   $locationProvider.html5Mode({
       enabled: true,
       requireBase: false

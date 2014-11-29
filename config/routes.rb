@@ -54,5 +54,7 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   root 'application#index'
+  get 'todos/index' => 'todos#index'
   get '*path' => 'application#index'
+  get '*path' => 'todos#index'
 end
